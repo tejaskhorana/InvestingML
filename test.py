@@ -16,20 +16,22 @@ print '\nTarget'
 print (digits.target)
 
 #the images corresponding to each sample
-print '\nImages (image of the digit basically converted to numbers)'
+print '\nImage #1 (image of the first digit basically converted to numbers)'
 print (digits.images[0])
 
-#classifier
+#classifier, 
 clf = svm.SVC(gamma=0.001, C=100)
 
 #store data and target answer EXCEPT FOR the last index
 #this is our training data
-x,y = digits.data[:-1], digits.target[:-1]
+x,y = digits.data[:-10], digits.target[:-10]
 
 #fit the SVM model according to the given training data.
 clf.fit(x,y)
 
 #last element!
-print('Prediction: ', clf.predict(digits.data[-1]))
-plt.imshow(digits.images[-1], cmap=plt.cm.gray_r, interpolation="nearest")
+print 'Prediction: '
+print clf.predict(digits.data[[-3]])[0] 
+plt.imshow(digits.images[-3], cmap=plt.cm.gray_r, interpolation="nearest")
 plt.show()
+

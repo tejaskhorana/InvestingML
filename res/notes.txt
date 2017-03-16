@@ -1,0 +1,9 @@
+all machine learning is classification
+most time in ML:
+1. Acquiring Data
+2. Organizing & Structured Data (typically structured terribly in raw form)
+* Even for unsupervised learning, you might want to normalize data to improve chances for success.
+Unsupervised learning: take anything and give to machine and return awesome insights (really difficult).
+
+Support Vector Machine
+A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples.
