@@ -7,3 +7,23 @@ Unsupervised learning: take anything and give to machine and return awesome insi
 
 Support Vector Machine
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples.
+
+Stock Fundamentals Data: SEC Website, Yahoo Finance
+
+Good statistic to analyze: Debt/Equity
+
+If want to invest: 
+1. Trailing P/E - 12 is generally average. Higher for Tech since most of its value is intangible. Better than Forward P/E since it is projected. 
+2. Price/Book - Worth x times more than its book value (if it sold everything on its books). Higher for Tech companies. Non-Tech have values closer to 0 because they don't have much more than their inventory (i.e. dedicated consumers, technology innovations, etc.). 
+3. Debt/Equity- Debt is 31 times their equity (tech)
+
+(1) Exclusively look at Debt/Equity
+	-> Higher = More Leveraged
+	-> Tech companies have a lot of debt and little equity
+	-> Eventually want to measure all kinds of things and put in different sectors
+	-> ideal normalization: scale -1 to 1 for each type of company
+
+
+Pandas: Manipulation of dataset. Good for spreadsheet or database type manipulation.
+
+Python os module can be used to perform tasks such as finding the name of present working directory, changing current working directory, checking if certain files or directories exist at a location, creating new directories, deleting existing files or directories, walking through a directory and performing operations on every file in the directory that satisfies some user-defined criteria, and a lot more. 
