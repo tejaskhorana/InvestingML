@@ -7,6 +7,8 @@ Unsupervised learning: take anything and give to machine and return awesome insi
 
 Support Vector Machine
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples.
+SVM for lienarly separable binary sets
+Best Hyperplane: leaves maximum margin from both classes. Margin is closest distance between line and closest point from one of the classes. (perpendicular). Equation for distance from hyperplane to point (margin): 2/|w|, so we want to minimize the weight vector to maximize desirability. Nonlinear optimization task: KKT Conditions. 
 
 Stock Fundamentals Data: SEC Website, Yahoo Finance
 
@@ -27,3 +29,26 @@ If want to invest:
 Pandas: Manipulation of dataset. Good for spreadsheet or database type manipulation.
 
 Python os module can be used to perform tasks such as finding the name of present working directory, changing current working directory, checking if certain files or directories exist at a location, creating new directories, deleting existing files or directories, walking through a directory and performing operations on every file in the directory that satisfies some user-defined criteria, and a lot more. 
+
+
+Stock sources:
+SEC.gov's Edgar - good data, bad structure
+Yahoo
+lots of time acquiring and labeling (supervised only) and structuring data (supervised). But for unsupervised, there are some preprocessing steps like normalization that are important to note. 
+
+ML: helps you gain experience from field instantaneously. Super fast!
+
+normalize all data to put them on the same scale ~-1 to 1 or -3 to 3 etc. 
+
+acquire stock fundamentals from SEC website
+sec.gov -> company filings (fast search).
+Fundamentals: 10k (annual report), 10q (quarterly report)
+
+Total Debt/Equity
+Trailing P/E: Price to Equity ~12 is average. being valued x times its value. its the intangible value that's put in. 
+Forward P/E: less important, projected
+arch coal has a much lower P/E than a CS company. 0.12 to 12. 
+
+pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python
+
+quandl good for data acquisition. 
